@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* Redirects */
 Route::redirect('/', '/emails');
 
 /* Auth */
@@ -24,5 +25,8 @@ Route::get('/oauth/gmail', 'Auth\LoginController@redirectToProvider')->name('oau
 Route::get('/oauth/gmail/callback', 'Auth\LoginController@handleProviderCallback');
 
 /* Emails */
-Route::get('/emails', 'GmailController@index')->name('emails.index');
-Route::get('/emails/load', 'GmailController@loadAjax')->name('emails.load');
+Route::middleware(['auth'])->name('emails.')->group(function () {
+    Route::get('/emails', 'GmailController@index')->name('index');
+    Route::get('/emails/load', 'GmailController@load')->name('load');
+});
+

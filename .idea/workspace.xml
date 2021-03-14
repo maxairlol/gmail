@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab49859e-67e9-481b-b11e-398579e0a07b" name="Default Changelist" comment="" />
+    <list default="true" id="ab49859e-67e9-481b-b11e-398579e0a07b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Gmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Gmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GmailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GmailController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/PageToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_12_104313_create_gmails_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_12_104313_create_gmails_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/emails.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/emails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/modal-email-content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/modal-email-content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +34,20 @@
         <option value="blade" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/Label.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -136,6 +164,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1pQtUknKzW5Nv24hWBFCQW4EkV4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -144,12 +173,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Web/Projects/laravel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Artem\Desktop\tmp\tmp\resources\views\auth" />
       <recent name="C:\Users\Artem\Desktop\laravel_gmail_api\resources\views\gmails" />
     </key>
   </component>
@@ -172,7 +202,9 @@
       <workItem from="1615306680525" duration="66632000" />
       <workItem from="1615466412833" duration="5422000" />
       <workItem from="1615485611701" duration="28595000" />
-      <workItem from="1615577288021" duration="318000" />
+      <workItem from="1615577288021" duration="41665000" />
+      <workItem from="1615746552685" duration="2620000" />
+      <workItem from="1615749441263" duration="5918000" />
     </task>
     <servers />
   </component>

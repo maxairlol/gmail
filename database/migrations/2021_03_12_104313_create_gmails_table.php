@@ -18,6 +18,7 @@ class CreateGmailsTable extends Migration
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('from');
             $table->string('subject');
+            $table->longText('content');
             $table->dateTime('date');
             $table->timestamps();
         });
